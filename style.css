@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  background-color: #333;
+}
+
+.main {
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 200px;
+
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 10px;
+  border: 10px;
+  background-color: teal;
+  font-weight: bold;
+  color: white;
+  border-radius: 2px;
+}
+button:hover {
+  cursor: pointer;
+}
+input {
+  margin: 10px;
+  border: none;
+  font-size: large;
+  color: rgba(0, 128, 128, 0.616);
+}
+textarea {
+  border: none;
+  font-size: large;
+  color: rgba(0, 128, 128, 0.616);
+}
+ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+#bool {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#yourAnswers p {
+  margin-top: 30px;
+  color: teal;
+}
